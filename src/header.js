@@ -2,16 +2,14 @@ import React from "react";
 
 
 
-function Navigation (props) {
+function Components (props) {
     return(
 
        <>
-       <h1 >{props.name}</h1> 
-       <h1 >{props.lastname}</h1>
-     
+       <h1>{props.Array}</h1>
        </>
 
     )
 }
 
-export default Navigation;
+export default Components;
